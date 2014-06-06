@@ -7,15 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+VowelCounting.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        NSString *string = @"The quick brown fox jumps over the lazy dog";
+        NSLog(@"%@ has %d vowel(s)", string, [string vowelCount]);
     }
     return 0;
 }
