@@ -16,12 +16,15 @@
     // Call the NSObject's init mehtod
     self = [super init];
     
-    // Give voltage a string value
-    voltage = 120;
+    // Did it return something non-nil?
+    if(self){
+        
+        // Give voltage a string value
+        voltage = 120;
+        
+    }
     
     // Return a pointer to the new object
     return self;
 }
-
-
 @end
