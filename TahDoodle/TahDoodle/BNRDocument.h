@@ -11,7 +11,8 @@
 @interface BNRDocument : NSDocument <NSTableViewDataSource>
 {
     NSMutableArray *todoItems;
-    IBOutlet NSTableColumn *itemTableView;
+    IBOutlet NSTableView *itemTableView;
+    
 }
 
 -(IBAction)createNewItem:(id)sender;

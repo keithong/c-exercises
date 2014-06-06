@@ -36,7 +36,9 @@
         todoItems = [NSMutableArray array];
     }
     
+
     [todoItems addObject:@"New Item"];
+    
     
     // -reloadData tells the table view to refresh and ask its dataSource
     // (which happens to be this BNRDocument object in this case)

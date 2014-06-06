@@ -7,7 +7,8 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="BNRDocument">
             <connections>
-                <outlet property="itemTableView" destination="rKY-cp-LL6" id="op5-Ju-HvN"/>
+                <outlet property="itemTableView" destination="JZz-Zb-daj" id="L5A-dX-34q"/>
+                <outlet property="textInsert" destination="bnw-hg-pvk" id="wMN-Dw-QXz"/>
                 <outlet property="window" destination="5" id="He1-2N-43o"/>
             </connections>
         </customObject>
@@ -23,7 +24,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" id="20">
-                        <rect key="frame" x="120" y="195" width="266" height="22"/>
+                        <rect key="frame" x="120" y="170" width="266" height="22"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Your document contents here" id="100020">
                             <font key="font" size="18" name="LucidaGrande"/>
@@ -31,27 +32,27 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="vZq-bk-W5B">
-                        <rect key="frame" x="5" y="46" width="462" height="363"/>
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="E5u-hO-LbB">
+                        <rect key="frame" x="20" y="46" width="467" height="322"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <clipView key="contentView" id="E0x-96-DW9">
-                            <rect key="frame" x="1" y="17" width="460" height="345"/>
+                        <clipView key="contentView" id="I17-iF-YlU">
+                            <rect key="frame" x="1" y="17" width="465" height="304"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="G0G-gI-f9J" id="FMg-qj-EUg">
-                                    <rect key="frame" x="0.0" y="0.0" width="460" height="345"/>
+                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="9RY-A2-t2X" id="JZz-Zb-daj">
+                                    <rect key="frame" x="0.0" y="0.0" width="465" height="304"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn width="240.81640625" minWidth="40" maxWidth="1000" id="rKY-cp-LL6">
+                                        <tableColumn width="462" minWidth="40" maxWidth="1000" id="BfS-Tp-KaH">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
-                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="9NN-Tk-iCW">
+                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="NJp-oA-tvO">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -60,36 +61,45 @@
                                         </tableColumn>
                                     </tableColumns>
                                     <connections>
-                                        <outlet property="dataSource" destination="-2" id="Eyz-v9-v3r"/>
+                                        <outlet property="dataSource" destination="-2" id="8Pa-aI-upv"/>
                                     </connections>
                                 </tableView>
                             </subviews>
                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </clipView>
-                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" id="zLa-KW-w5z">
-                            <rect key="frame" x="-7" y="2" width="0.0" height="15"/>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" id="mRo-wp-Nc2">
+                            <rect key="frame" x="1" y="119" width="223" height="15"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" id="8jk-tL-tmC">
-                            <rect key="frame" x="-14" y="9" width="15" height="0.0"/>
+                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="37" id="TIw-6A-MYb">
+                            <rect key="frame" x="224" y="17" width="15" height="102"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <tableHeaderView key="headerView" id="G0G-gI-f9J">
-                            <rect key="frame" x="0.0" y="0.0" width="460" height="17"/>
+                        <tableHeaderView key="headerView" id="9RY-A2-t2X">
+                            <rect key="frame" x="0.0" y="0.0" width="465" height="17"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
-                    <button verticalHuggingPriority="750" id="oy9-ST-Wfa">
-                        <rect key="frame" x="5" y="19" width="108" height="19"/>
+                    <button verticalHuggingPriority="750" id="ytH-PE-E25">
+                        <rect key="frame" x="20" y="19" width="86" height="19"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="roundRect" title="Insert" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ud0-Xk-J5u">
+                        <buttonCell key="cell" type="roundRect" title="Insert" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Uq4-Sm-Jke">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="cellTitle"/>
+                            <font key="font" metaFont="controlContent"/>
                         </buttonCell>
                         <connections>
-                            <action selector="createNewItem:" target="-2" id="PPT-WK-4fz"/>
+                            <action selector="createNewItem:" target="-2" id="l3z-e1-vKR"/>
                         </connections>
                     </button>
+                    <textField verticalHuggingPriority="750" id="bnw-hg-pvk">
+                        <rect key="frame" x="20" y="371" width="467" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="35b-O5-3Y1">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <connections>
