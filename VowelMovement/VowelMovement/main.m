@@ -42,6 +42,11 @@ int main(int argc, const char * argv[])
             }
             [newStrings addObject:newString];
         }; // End of block assignment
+        
+        // Iterate over the array with our block
+        [oldStrings enumerateObjectsUsingBlock:devowelizer];
+        NSLog(@"new strings: %@", newStrings);
+        
     }
     return 0;
 }
