@@ -27,6 +27,17 @@ int main(int argc, const char * argv[])
         
         // Assign a block to the variable
         devowelizer = ^(id string, NSUInteger i, BOOL *stop){
+            
+            NSRange yRange = [string rangeOfString:@"y"
+                                           options:NSCaseInsensitiveSearch];
+            
+            // Did I find a y?
+            if(yRange.location != NSNotFound){
+            
+                *stop = YES; // Prevent further iterations
+                return;      // Stop this iteration
+                
+            }
         
             NSMutableString *newString = [NSMutableString stringWithString:string];
             
