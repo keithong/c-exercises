@@ -20,7 +20,7 @@
     if(self){
         
         // Give voltage a string value
-        voltage = 120;
+        [self setVoltage:120];
         
     }
     
