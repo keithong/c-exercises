@@ -14,7 +14,7 @@
     int voltage;
 }
 
-@property (copy, nonatomic) NSString *productName;
+//@property (copy, nonatomic) NSString *productName;
 @property (nonatomic) int voltage;
 
 // The designated initializer

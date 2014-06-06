@@ -9,7 +9,7 @@
 #import "Appliance.h"
 
 @implementation Appliance
-@synthesize productName, voltage;
+@synthesize voltage; // (original) productName, voltage;
 
 -(id) initWithProductName:(NSString *)pn
 {
@@ -20,7 +20,8 @@
     if(self){
         
         // Set the product name
-        [self setProductName:pn];
+        //[self setProductName:pn];
+        productName = [pn copy];
         
         // Give voltage a string value
         [self setVoltage:120];
@@ -39,4 +40,5 @@
 {
     return [NSString stringWithFormat:@"<%@: %d volts>", productName, voltage];
 }
+
 @end
