@@ -12,6 +12,8 @@
 {
     NSMutableSet *ownerNames;
 }
+
+// The designated initializer
 -(id)initWithProductName:(NSString *)pn
           firstOwnerName:(NSString *)n;
 
