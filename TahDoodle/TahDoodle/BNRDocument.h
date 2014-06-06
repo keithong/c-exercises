@@ -13,6 +13,8 @@
     NSMutableArray *todoItems;
     IBOutlet NSTableView *itemTableView;
     
+    // Text field for the user's input
+    IBOutlet NSTextField *userInput;
 }
 
 -(IBAction)createNewItem:(id)sender;

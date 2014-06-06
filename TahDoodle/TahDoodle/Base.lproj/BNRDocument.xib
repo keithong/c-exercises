@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="itemTableView" destination="JZz-Zb-daj" id="L5A-dX-34q"/>
                 <outlet property="textInsert" destination="bnw-hg-pvk" id="wMN-Dw-QXz"/>
+                <outlet property="userInput" destination="bnw-hg-pvk" id="65G-n4-rri"/>
                 <outlet property="window" destination="5" id="He1-2N-43o"/>
             </connections>
         </customObject>

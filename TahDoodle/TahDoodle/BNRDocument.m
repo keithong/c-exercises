@@ -36,8 +36,8 @@
         todoItems = [NSMutableArray array];
     }
     
-
-    [todoItems addObject:@"New Item"];
+    // Add the object from the text field
+    [todoItems addObject:[userInput stringValue]];
     
     
     // -reloadData tells the table view to refresh and ask its dataSource
