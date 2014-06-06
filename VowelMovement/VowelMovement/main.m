@@ -25,7 +25,23 @@ int main(int argc, const char * argv[])
         // Declare the block variable
         void (^devowelizer)(id, NSUInteger, BOOL *);
         
+        // Assign a block to the variable
+        devowelizer = ^(id string, NSUInteger i, BOOL *stop){
         
+            NSMutableString *newString = [NSMutableString stringWithString:string];
+            
+            // Iterate over the array of vowels, replacing occurences of each
+            // with an empty string.
+            for(NSString *s in vowels){
+                
+                NSRange fullRange = NSMakeRange(0, [newString length]);
+                [newString replaceOccurrencesOfString:s
+                                           withString:@""
+                                              options:NSCaseInsensitiveSearch range:fullRange];
+                
+            }
+            [newStrings addObject:newString];
+        }; // End of block assignment
     }
     return 0;
 }
