@@ -11,7 +11,7 @@
 		F08E1098194156FA00EF7015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08E1097194156FA00EF7015 /* main.m */; };
 		F08E109C194156FA00EF7015 /* Appliances.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F08E109B194156FA00EF7015 /* Appliances.1 */; };
 		F08E10A41941572B00EF7015 /* Appliance.m in Sources */ = {isa = PBXBuildFile; fileRef = F08E10A31941572B00EF7015 /* Appliance.m */; };
-		F08E10A71941573E00EF7015 /* OwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = F08E10A61941573E00EF7015 /* OwnedAppliance.m */; };
+		F08E10AA1941620100EF7015 /* OwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = F08E10A91941620100EF7015 /* OwnedAppliance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +35,8 @@
 		F08E109B194156FA00EF7015 /* Appliances.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Appliances.1; sourceTree = "<group>"; };
 		F08E10A21941572B00EF7015 /* Appliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appliance.h; sourceTree = "<group>"; };
 		F08E10A31941572B00EF7015 /* Appliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appliance.m; sourceTree = "<group>"; };
-		F08E10A51941573E00EF7015 /* OwnedAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnedAppliance.h; sourceTree = "<group>"; };
-		F08E10A61941573E00EF7015 /* OwnedAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnedAppliance.m; sourceTree = "<group>"; };
+		F08E10A81941620100EF7015 /* OwnedAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnedAppliance.h; sourceTree = "<group>"; };
+		F08E10A91941620100EF7015 /* OwnedAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnedAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 				F08E1097194156FA00EF7015 /* main.m */,
 				F08E10A21941572B00EF7015 /* Appliance.h */,
 				F08E10A31941572B00EF7015 /* Appliance.m */,
-				F08E10A51941573E00EF7015 /* OwnedAppliance.h */,
-				F08E10A61941573E00EF7015 /* OwnedAppliance.m */,
+				F08E10A81941620100EF7015 /* OwnedAppliance.h */,
+				F08E10A91941620100EF7015 /* OwnedAppliance.m */,
 				F08E109B194156FA00EF7015 /* Appliances.1 */,
 				F08E1099194156FA00EF7015 /* Supporting Files */,
 			);
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F08E10A71941573E00EF7015 /* OwnedAppliance.m in Sources */,
+				F08E10AA1941620100EF7015 /* OwnedAppliance.m in Sources */,
 				F08E1098194156FA00EF7015 /* main.m in Sources */,
 				F08E10A41941572B00EF7015 /* Appliance.m in Sources */,
 			);
