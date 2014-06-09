@@ -9,17 +9,6 @@
 #import "Person.h"
 
 @implementation Person
--(void)setName:(NSString *)name{
-    _name = name;
-}
--(void)setAge:(NSNumber *)age{
-    _age = age;
-}
--(NSString *)name{
-    return _name;
-}
--(NSNumber *)age{
-    return _age;
-}
-
+@synthesize name;
+@synthesize age;
 @end

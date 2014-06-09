@@ -9,13 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-{
-    NSString *_name;
-    NSNumber *_age;
-}
--(void)setName:(NSString *)name;
--(void)setAge:(NSNumber *)age;
--(NSString *)name;
--(NSNumber *)age;
-
+@property NSString *name;
+@property NSNumber *age;
 @end

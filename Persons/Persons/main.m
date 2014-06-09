@@ -19,7 +19,7 @@ int main(int argc, const char * argv[])
         [p setAge:[[NSNumber alloc] initWithInt:20]];
         
         NSString *name = [p name];
-        NSNumber *age = [p age];	
+        NSNumber *age = [p age];
         
         
         NSLog(@"%@ is %@ years old", name, age);
