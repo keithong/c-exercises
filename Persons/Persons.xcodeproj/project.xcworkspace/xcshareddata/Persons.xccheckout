@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F39D950E-19BF-448A-8691-A64F873570EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Persons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9808FA22-D1BF-498D-9F2C-9B7079619972</key>
+		<string>https://github.com/keithong/c-exercises.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Persons/Persons.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9808FA22-D1BF-498D-9F2C-9B7079619972</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/keithong/c-exercises.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9808FA22-D1BF-498D-9F2C-9B7079619972</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9808FA22-D1BF-498D-9F2C-9B7079619972</string>
+			<key>IDESourceControlWCCName</key>
+			<string>c-exercises</string>
+		</dict>
+	</array>
+</dict>
+</plist>
