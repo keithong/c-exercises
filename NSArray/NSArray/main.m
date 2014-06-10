@@ -13,9 +13,18 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         NSMutableArray *arrayList = [NSMutableArray arrayWithObjects:@"Rick",@"Daryl",@"Carl",@"Michonne", nil];
-        [arrayList sortUsingDescriptors:];
-            NSLog(@"Items in the array %@", arrayList);
-
+        NSMutableArray *numList = [NSMutableArray arrayWithObjects:[NSNumber numberWithInt:5],[NSNumber numberWithInt:4],[NSNumber numberWithInt:3],[NSNumber numberWithInt:2],[NSNumber numberWithInt:1],nil];
+//            NSLog(@"Items in the array %@", arrayList);
+        
+        for(id items in arrayList){
+            NSString *itemText = (NSString *)items;
+            NSLog(@"%@", itemText);
+            
+        }
+        
+        for(NSNumber *items in numList){
+            NSLog(@"%d", [items intValue]);
+        }
     }
     return 0;
 }
